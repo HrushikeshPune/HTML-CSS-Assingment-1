@@ -5,3 +5,52 @@
 width: 100%;
 height: 100%;
 }
+.all-content{
+    height: 100%;
+}
+.body{
+    background:lightgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex: 0 0 auto;
+    background: #fff;
+    max-width: 800px;
+    margin: 100px 0;
+    margin-left: 200px;
+    border: 1px solid;
+}
+.part1{
+    flex: 0 0 auto;
+    width: 300px;
+    position: relative;
+    background:linear-gradient(to bottom,#9fd483,#8dc26f)
+}
+img{
+    width: 310px;
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    margin-left: -170px;
+}
+.card-info{
+    padding: 3em 4em 2em;
+}
+a{
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0 25px;
+    background: #8dc26f;
+    font-size: 0.8em;
+    height: 30px;
+    color: #eee;
+    text-decoration: none;
+    border-radius: 25px;
+    line-height: 30px;
+    
+
+}
